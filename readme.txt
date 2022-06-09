@@ -28,4 +28,10 @@ git reflog
 #红色在工作区，绿色在暂存区
 #只有在暂存区的才会被commit;
 
-#hahh
+#撤回修改
+#git checkout -- readme.txt
+
+#删除文件
+git rm test.txt
+
+
