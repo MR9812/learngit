@@ -32,6 +32,6 @@ git reflog
 #git checkout -- readme.txt
 
 #删除文件
-git rm test.txt
-
+git rm test.txt           #彻底删除
+git checkout -- test.txt  #误删，恢复
 
