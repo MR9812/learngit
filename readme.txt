@@ -44,3 +44,13 @@ git push origin master #之后推送最新修改
 
 #从远程库中clone
 git clone git@ser_name/repo-name.git
+
+#创建分支并操作
+git branch           #查看当前分枝
+git branch mr98      #创建新分支
+git checkout mr98    #切换分支
+git switch mr98      #也是切换分支，区分checkout的删除
+git checkout -b mr98 #创建分枝并切换
+get merge mr98       #合并分支到master
+git branch -d mr98   #删除分支 
+
