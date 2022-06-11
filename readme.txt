@@ -52,5 +52,6 @@ git checkout mr98    #切换分支
 git switch mr98      #也是切换分支，区分checkout的删除
 git checkout -b mr98 #创建分枝并切换
 get merge mr98       #合并分支到master
-git branch -d mr98   #删除分支 
+git branch -d mr98   #删除分支
 
+#解决冲突 
