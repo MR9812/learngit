@@ -35,3 +35,5 @@ git reflog
 git rm test.txt           #彻底删除
 git checkout -- test.txt  #误删，恢复
 
+#连接远程库
+git remote add origin git@github.com:MR9812/learngit.git
