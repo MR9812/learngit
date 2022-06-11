@@ -37,3 +37,7 @@ git checkout -- test.txt  #误删，恢复
 
 #连接远程库
 git remote add origin git@github.com:MR9812/learngit.git
+#git remote add origin git@server-name:path/repo-name.git
+#origin 为远程库的名字，
+git push -u origin master #第一次连接，推送master分支的全部内容
+git push origin master #之后推送最新修改
