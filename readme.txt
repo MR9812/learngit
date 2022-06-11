@@ -54,4 +54,22 @@ git checkout -b mr98 #创建分枝并切换
 get merge mr98       #合并分支到master
 git branch -d mr98   #删除分支
 
-#解决冲突 
+#解决冲突
+#当master和mr98都做出了修改，master不是mr98所基于的master，冲突。
+
+#分支管理，一般不在master干活，会在另一个分支干活，master只负责上线
+git merge --no--ff -m "zhushi" mr98 #合并分支时会留下注释，方便管理
+git log #可以查看分支历史
+
+#bug分支
+git stash  #工作现场保存，修复bug，
+git stash pop #回到工作现场
+
+#删除未合并分支
+git branch -D mr98
+
+#多人协作
+git push origin mr98 #推送到远程库对应的远程分支
+
+#rebase
+git rebase  #变为直线
