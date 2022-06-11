@@ -41,3 +41,6 @@ git remote add origin git@github.com:MR9812/learngit.git
 #origin 为远程库的名字，
 git push -u origin master #第一次连接，推送master分支的全部内容
 git push origin master #之后推送最新修改
+
+#从远程库中clone
+git clone git@ser_name/repo-name.git
