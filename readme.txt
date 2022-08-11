@@ -1,3 +1,4 @@
+#git
 Git is free software.
 it is a test.
 #cat读取
