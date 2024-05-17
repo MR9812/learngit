@@ -74,3 +74,64 @@ git push origin mr98 #推送到远程库对应的远程分支
 
 #rebase
 git rebase  #变为直线
+
+
+
+
+
+
+
+git clone 
+git branch
+git checkout mr98
+git branch
+git push origin mr98 #推送到远程库对应的远程分支
+
+git add shop_quality/shop_ban/ban_sale   #提交到暂存区
+git commit -m "zhushi"    #提交到分支
+git push origin mr98 #推送分支
+
+get merge mr98       #合并分支到master
+git branch -d mr98   #删除分支
+
+
+
+
+
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+
+nvcc —version
+!python --version
+import torch
+print(torch.__version__)
+
+cuda 11.7 镜像
+pip3 install torch torchvision torchaudio
+pip install torch_geometric
+pip install  dgl -f https://data.dgl.ai/wheels/cu117/repo.html
+
+https://anonymous.4open.science/r/Joint-cluster-loss-01C7/single_label/run.sh
+
+
+pip list > o
+vi o
+awk 'NR==FNR{a[$1]} NR!=FNR&&($1 in a)' all_recall_shop_id.txt all_recall_shop_id.txt > merge
+!pip3 list | grep euler
+MiaoRui19981202
+
+Python 3.9
+Cuda 11.8
+pip3 install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+pip3 install torch_geometric
+pip3 install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+pip3 install tqdm
+pip3 install texttable
+pip3 install ogb
+pip3 install down
+pip3 install munch
+pip3 install rdkit
+pip3 install -U openmim
+mim install mmcv
+https://github.com/open-mmlab/mmsegmentation/issues/1327
+
+Python3执行命令
